@@ -19,9 +19,11 @@
   "homepage": "https://github.com/David Mulder/paper-datatable/",
   "ignore": [
     "/.*",
-    "/test/"
+    "/test/",
+    "paper-styles"
   ],
   "dependencies": {
+    "vaadin-grid": "^1.0.0",
     "polymer": "Polymer/polymer#~1.2.0",
     "paper-material": "PolymerElements/paper-material#~1.0.3",
     "paper-item": "PolymerElements/paper-item#~1.0.5",
